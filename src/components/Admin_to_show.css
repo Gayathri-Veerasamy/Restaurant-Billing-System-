@@ -1,0 +1,25 @@
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}
+
+.item-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.item-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}

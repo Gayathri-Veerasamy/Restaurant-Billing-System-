@@ -1,0 +1,64 @@
+.user-container {
+    padding: 20px;
+  }
+  
+  .search-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-filter input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+    margin-right: 20px;
+  }
+  
+  .category-filters button {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .item-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .item-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .item-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .counter button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,34 @@
+.cart-container {
+    padding: 20px;
+  }
+  
+  .bill-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .bill-table th,
+  .bill-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .bill-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .generate-bill-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .generate-bill-button:hover {
+    background-color: green;
+  }
+  
